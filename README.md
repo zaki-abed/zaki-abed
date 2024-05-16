@@ -1,13 +1,6 @@
 # Hey! Nice to see you.
 #### Welcome to my profile! I'm Zaki Abed. A frontend developer, Live in Egypt 🇪🇬
 
-
-<p align=”center”>
-
-<img width=”200" height=”200" src=”https://user-images.blahblah/75753187/123358567-aac7b900-d539-11eb-8275-0b380264bb4c.png" alt=”my banner”>
-
-</p>
-
 - 🔭 I’m currently working on **HTML, CSS, JS, BS, JQ**
 
 - 🌱 I’m currently learning **JavaScript, TypeScript, Angular**
