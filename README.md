@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **JavaScript, TypeScript, Angular**
 
-- 👨‍💻 All of my projects are available at [https://zaki-abed.github.io/zaki-abed/](https://zaki-abed.github.io/zaki-abed/)
+- 👨‍💻 All of my projects are available at [My CV](https://zaki-abed.github.io/zaki-abed/"My CV")
 
 - 📚 Reading 《Eloquent JavaScript 4th Edition》
 
