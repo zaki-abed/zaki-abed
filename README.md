@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **zaki.abed2541@gmail.com**
 
-- 📄 Know about my experiences [My CV](https://drive.google.com/file/d/11dVrKR9Qu3y01YCn1oMO1bXWgS1nU7W5/view?usp=drive_link "My CV")
+- 📄 Know about my experiences [My CV](https://drive.google.com/file/d/1ORorjnJANClMT2hoeTHk0sp7oVvAoTbR/view "My CV")
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
