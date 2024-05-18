@@ -35,6 +35,6 @@
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
   <img alt="CSS" src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" />
 </p>-->
-
-##### Thanks for visiting and I'd love to connect!
+<br>
+Thanks for visiting and I'd love to connect!
 
