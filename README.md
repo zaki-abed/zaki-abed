@@ -18,7 +18,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/zaki-abed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="zaki-abed" height="30" width="40" /></a>
-<a href="https://wa.me/+970595502091" target="blank"><img align="center" src='https://cdn-icons-png.freepik.com/512/4423/4423697.png?ga=GA1.1.805435591.1715728134' alt="zaki-abed" height="40" width="40" /></a>
+<a href="https://wa.me/+201080041327" target="blank"><img align="center" src='https://cdn-icons-png.freepik.com/512/4423/4423697.png?ga=GA1.1.805435591.1715728134' alt="zaki-abed" height="40" width="40" /></a>
 
 </p>
 
