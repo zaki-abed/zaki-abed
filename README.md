@@ -1,13 +1,9 @@
 # Hey! Nice to see you.
 #### Welcome to my profile! I'm Zaki Abed. FullStack Laravel Developer, Live in Egypt 🇪🇬
 
-- 🔭 I’m currently working on **Laravel [Blade, API]**
-
-- 🌱 I’m currently learning **JavaScript, Twillend, Ajax**
+- 🔭 I’m currently working on **Laravel [Blade, API, Component]**
 
 - 👨‍💻 All of my projects are available at [My Portfolio](https://zaki-abed.github.io/zaki-abed/ "My CV")
-
-- 📚 Reading 《Eloquent JavaScript 4th Edition》
 
 - 💬 Ask me about **anything, I am happy to help;**
 
