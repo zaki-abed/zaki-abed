@@ -5,11 +5,11 @@
 
 - 👨‍💻 All of my projects are available at [My Portfolio](https://zaki-abed.github.io/zaki-abed/ "My CV")
 
-- 💬 Ask me about **anything, I am happy to help;**
-
 - 📫 How to reach me **zaki.abed2541@gmail.com**
 
 - 📄 Know about my experiences [My CV]
+  
+- 💬 Ask me about **anything, I am happy to help;**
 
 <hr>
 
