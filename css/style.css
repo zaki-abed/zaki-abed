@@ -1,0 +1,378 @@
+/* Google Font: Rubik, Syne, DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap');
+
+/* Start Variables */
+:root {
+    --main-color: rgb(255 182 70);
+    --main-dark-color: rgb(255 147 48);
+    --section-bg: rgb(255 233 217);
+    --text-black: black;
+}
+/* End Variables */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-btn {
+    background-color: var(--text-black);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    border: 1px solid var(--text-black);
+    transition: 0.4s;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: var(--text-black);
+    border: 1px solid var(--text-black);
+}
+
+.main-btn i {
+    margin-left: 10px;
+    transform: rotate(-45deg);
+    font-size: 18px;
+}
+
+/* Start Navbar */
+.navbar {
+    padding: 0;
+}
+
+.navbar .container {
+    background-color: transparent;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .navbar-brand {
+    font-family: "Rubik", sans-serif;
+    color: var(--main-color);
+    font-size: 25px;
+    letter-spacing: -2px;
+    position: relative;
+}
+
+.navbar .navbar-brand::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -11px;
+    width: 8px;
+    height: 8px;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
+.navbar .navbar-toggler {
+    color: var(--text-black);
+    border: 3px solid var(--text-black);
+    padding: 6px 12px;
+    transition: 0.4s;
+} 
+
+.navbar .navbar-toggler:hover {
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    padding: 6px 12px;
+} 
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .icons li i {
+    color: var(--text-black);
+    font-size: 27px;
+    transition: 0.4s;
+}
+
+@media (max-width: 992px) {
+    .icons {
+        justify-content: flex-start;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .collapse {
+        position: absolute;
+        top: 75px;
+        min-height: 118px;
+        background: var(--section-bg);
+        width: 100%;
+        left: 0px;
+        border: 1px solid;
+        padding: 5px;
+    }
+    
+}
+.navbar .icons li i:hover {
+    color: var(--main-color);
+}
+/* End Navbar */
+/* Start Landing */
+.landing {
+    height: 100vh;
+    background-color: var(--section-bg);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing .text {
+    width: 500px;
+    font-family: "Syne", sans-serif;
+    color: rgba(8, 8, 8, 0.8);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.landing .text .name {
+    display: block;
+    margin: 30px 0;
+    font-size: 140px;
+    position: relative;
+    z-index: 1;
+    color: var(--text-black);
+}
+
+@media (max-width: 768px) {
+    .landing .text .name {
+        font-size: 100px;
+    }
+}
+
+.landing .text .name::before {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: -35px;
+    width: 140px;
+    height: 140px;
+    background: var(--main-color);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.landing .text .name .child {
+    margin-top: -103px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .landing .text .name .child {
+        margin-top: -69px;
+    }
+}
+
+.landing .image {
+
+}
+
+.landing .image img {
+    width: 600px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .landing .image img {
+        display: none;
+    }
+}
+
+/* End Landing */
+
+/* Start About Me */
+.about-me {
+    padding: 120px 0;
+    background-color: rgba(8, 8, 8, 0.04) !important;
+}
+
+@media (min-width: 992px) {
+    .about-me {
+        height: 100vh;
+    }
+}
+
+.about-me .container {
+    display: flex;
+    align-items: start;
+    gap: 80px;
+}
+
+@media (max-width: 992px) {
+    .about-me .container {
+        flex-direction: column;
+    }
+}
+
+.about-me .nav {
+    gap: 15px;
+}
+
+@media (max-width: 992px) {
+    .about-me .nav {
+        flex-direction: row !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-me .nav {
+        width: 492px;
+    }
+}
+
+.about-me .text {
+    color: rgb(8 8 8);
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+    .about-me .text {
+        width: 450px;
+    }
+}
+
+.about-me .text::before {
+    content: "";
+    position: absolute;
+    top: 53px;
+    left: -10px;
+    width: 70px;
+    height: 70px;
+    background: var(--main-color);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.about-me .text span {
+    display: block;
+    font-family: "Syne", sans-serif;
+    color: var(--main-dark-color);
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-me .main-btn {
+    background-color: white;
+    color: var(--text-black);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.about-me .main-btn:hover {
+    background-color: var(--text-black);
+    color: white;
+}
+
+.about-me .nav-pills .nav-link.active, .about-me .nav-pills .show>.nav-link, .about-me button.active {
+    background: var(--text-black);
+    color: white;
+}
+
+.about-me .star {
+    position: absolute;
+}
+
+.about-me .about-me-tab h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 32px;
+    color: rgb(8 8 8);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-me .about-me-tab  {
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(8, 8, 8, 0.6);
+}
+
+@media (max-width: 768px) {
+    .about-me-tab {
+        width: 380px;
+    }
+}
+
+.about-me .about-me-tab ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-me .about-me-tab ul li {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about-me .about-me-tab ul li .first {
+    display: block;
+    width: 100px;
+    font-size: 18px;
+}
+
+.about-me .about-me-tab ul li .second {
+    color: rgb(8 8 8);
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Syne", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .about-me .about-me-tab ul li .second {
+        font-size: 20px;
+    }
+}
+/* End About Me */
