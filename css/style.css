@@ -591,12 +591,14 @@ a {
 .portfolio .boxes .box {}
 
 .portfolio .boxes .box .image {
-
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .portfolio .boxes .box .image img {
     max-width: 100%;
     width: 620px;
+    height: 300px;
 }
 
 .portfolio .boxes .box .tech {
