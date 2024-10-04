@@ -52,11 +52,22 @@ a {
     border: 1px solid var(--text-black);
 }
 
-.main-btn i {
+.main-btn i,
+.fa-arrow-right {
     margin-left: 10px;
     transform: rotate(-45deg);
     font-size: 18px;
 }
+/* Start Component */
+.title {
+    font-family: "Syne", sans-serif;
+    font-size: 32px;
+    color: rgb(8 8 8);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* End Component */
+
 
 /* Start Navbar */
 .navbar {
@@ -303,7 +314,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1.75rem;
@@ -319,11 +330,7 @@ a {
     background: var(--text-black);
     color: white;
 }
-
-.about-me .star {
-    position: absolute;
-}
-
+/* Tab: About me */
 .about-me .about-me-tab h2 {
     font-family: "Syne", sans-serif;
     font-size: 32px;
@@ -375,4 +382,362 @@ a {
         font-size: 20px;
     }
 }
+
+/* Tab: Software Skills */
+.about-me .software-skills-tab {}
+.about-me .software-skills-tab ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-me .software-skills-tab ul li {
+    position: relative;
+    font-size: 19px;
+}
+.about-me .software-skills-tab ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Pro";
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 900;
+}
+.about-me .software-skills-tab ul li span:first-child {
+    font-weight: 600;
+}
+.about-me .software-skills-tab ul li span:last-child {
+    display: block;
+    margin-left: 22px;
+}
+
+/* Tab: Education */
+.about-me .education-tab {
+
+}
+
+.about-me .education-tab .boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me .education-tab .boxes .box {
+    display: flex;
+    gap: 40px;
+    background: rgba(8, 8, 8, 0.04);
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.about-me .education-tab .boxes .box:hover {
+    --tw-shadow: 0px 36px 100px 0px rgba(8, 8, 8, 0.15);
+    --tw-shadow-colored: 0px 36px 100px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    background-color: white;
+}
+
+.about-me .education-tab .boxes .box .date {
+
+}
+
+.about-me .education-tab .boxes .box .info {}
+
+.about-me .education-tab .boxes .box .info span:first-child {
+    color: rgb(8 8 8);
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.about-me .education-tab .boxes .box .info span:first-child:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    background: var(--main-dark-color);
+    border-radius: 50%;
+}
+
+.about-me .education-tab .boxes .box .info .name {
+    color: rgb(8 8 8);
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    font-size: 21px;
+    display: block;
+}
+
+.about-me .education-tab .boxes .box .info .gpa {
+    font-size: 20px;
+}
+
+.about-me .education-tab .boxes .box .info .number {
+    font-family: "Syne", sans-serif;
+}
+
+.about-me .skills-tab {}
+
+.about-me .skills-tab .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 1400px) {
+    .about-me .skills-tab .boxes {
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-me .skills-tab .boxes {
+        grid-template-columns: repeat(1, minmax(400px, 1fr));
+    }
+}
+
+.about-me .skills-tab .boxes span {
+    background-color: rgba(8, 8, 8, 0.04);
+    padding: 18px 30px;
+    border-radius: 1rem;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+@media (max-width: 768px) {
+    .about-me .skills-tab .boxes span {
+        font-size: 16px;
+    }
+}
+
+.about-me .skills-tab .boxes span:hover {
+    --tw-shadow: 0px 36px 100px 0px rgba(8, 8, 8, 0.15);
+    --tw-shadow-colored: 0px 36px 100px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+
+}
+
+.about-me .skills-tab .boxes span i {
+    font-size: 45px;
+}
+
+@media (max-width: 768px) {
+    .about-me .skills-tab .boxes span i {
+        font-size: 30px;
+    }
+}
 /* End About Me */
+/* Start Portfolio */
+.portfolio {
+    padding: 120px 0;
+    background: var(--section-bg);
+}
+
+.portfolio h2 {
+    font-size: 1.30rem;
+    color: var(--main-dark-color);
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    text-align: center;
+}
+
+.portfolio p {
+    font-size: 2.30rem;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    font-family: 'Syne', sans-serif;
+    letter-spacing: -2px;
+    position: relative;
+    z-index: 1
+}
+
+.portfolio p::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 12px;
+    left: 54.5%;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.portfolio .boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .portfolio .boxes {
+        flex-direction: column;
+    }
+}
+
+.portfolio .boxes .box {}
+
+.portfolio .boxes .box .image {
+
+}
+
+.portfolio .boxes .box .image img {
+    max-width: 100%;
+    width: 620px;
+}
+
+.portfolio .boxes .box .tech {
+    margin: 20px 0
+}
+
+.portfolio .boxes .box .tech span {
+    color: rgba(8, 8, 8, 0.8);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 3px 10px;
+    border: 1px solid rgba(8, 8, 8, 0.4);
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.portfolio .boxes .box .tech span:hover {
+    background-color: rgba(8, 8, 8, 0.95);
+    color: white;
+}
+
+.portfolio .boxes .box .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio .boxes .box .link i {
+    transform: rotate(-45deg);
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 13px;
+}
+
+.portfolio .boxes .box .app-name {
+    font-size: 33px;
+    color: rgb(8 8 8/ 1 );
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    transition: 0.3s;
+}
+
+/* .portfolio .boxes .box .link:hover, */
+.portfolio .boxes .box .link:hover i,
+.portfolio .boxes .box .link:hover .app-name {
+    color: var(--main-dark-color) !important;
+}
+
+.portfolio .view-all-projects {
+    background: rgba(8, 8, 8, 0.95);
+    border: 1px solid rgba(8, 8, 8, 0.4);
+    color: white;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.3s;
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"qw;
+}
+
+.portfolio .view-all-projects:hover {
+    background: transparent;
+    color: rgba(8, 8, 8, 0.95);
+}
+/* End Portfolio */
+/* Start CV */
+.cv {
+    padding: 120px 0;
+}
+
+.cv .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv .info .text {
+    width: 600px;
+}
+
+.cv .info h2 {
+    display: block;
+    font-family: "Syne", sans-serif;
+    color: var(--main-dark-color);
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cv .info p {
+    color: rgb(8 8 8);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Syne", sans-serif;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .cv .info p {
+        font-size: 30px;
+    }
+}
+
+.cv .info a {
+    color: white;
+    background-color: rgba(8, 8, 8, 0.95);
+    text-transform: capitalize;
+    padding: 12px 40px;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(8, 8, 8, 0.95);
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.cv .info a:hover {
+    color: rgba(8, 8, 8, 0.95);
+    background-color: transparent;
+}
+
+.cv iframe {
+    width: 100%;
+    height: 800px;
+}
+/* End CV */
+/* Start Footer */
+footer {
+    background-color: black;
+    color: rgb(255, 233, 217);
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer i {
+    color: var(--main-dark-color) !important;
+}
+/* End Footer */

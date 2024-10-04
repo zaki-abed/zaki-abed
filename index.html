@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- WoW.js -->
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
     <!-- Start Navbar -->
@@ -41,22 +43,22 @@
     <!-- Start Landing -->
     <div class="landing">
         <div class="container">
-            <div class="text">
+            <div class="text wow slideInLeft">
                 Hello, I'm ✌️
                 <span class="name">Zaki  <span class="child">Abed</span></span> 
                 FullStack Laravel Developer
                 I build dynamic full-stack web solutions with Laravel, Creating end-to-end web applications .. From front to back
             </div>
-            <div class="image">
+            <div class="image wow slideInRight">
                 <img src="images/landing.png" alt="Landing Image">
             </div>
         </div>
     </div>
     <!-- End Landing -->
+    <!-- Start About Me -->
     <div class="about-me">
         <div class="container">
-
-            <div class="column-1">
+            <div class="column-1 wow slideInLeft">
                 <div class="text">
                     <span>Resume</span>
                     All over my details find here...
@@ -67,21 +69,15 @@
                     <!-- Software Skills -->
                     <button class="main-btn nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Software Skills <i class="fa-regular fa-arrow-right"></i></button>
                     <!-- Education -->
-                    <button class="main-btn nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Education <i class="fa-regular fa-arrow-right"></i></button>
+                    <button class="main-btn nav-link" id="v-pills-education-tab" data-bs-toggle="pill" data-bs-target="#v-pills-education" type="button" role="tab" aria-controls="v-pills-education" aria-selected="false">Education <i class="fa-regular fa-arrow-right"></i></button>
                     <!-- Skills -->
-                    <button class="main-btn nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Skills <i class="fa-regular fa-arrow-right"></i></button>
-                    <!-- Portfolio -->
-                    <button class="main-btn nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Portfolio <i class="fa-regular fa-arrow-right"></i></button>
-                    <!-- CV -->
-                    <button class="main-btn nav-link" id="v-pills-cv-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cv" type="button" role="tab" aria-controls="v-pills-cv" aria-selected="false">CV <i class="fa-regular fa-arrow-right"></i></button>
-                </div>
+                    <button class="main-btn nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Skills <i class="fa-regular fa-arrow-right"></i></button>                </div>
             </div>
-            
-            <div class="column-2">
+            <div class="column-2 wow slideInRight">
                 <div class="tab-content" id="v-pills-tabContent">
                     <!-- About Me -->
                     <div class="tab-pane fade show active about-me-tab" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-                        <h2>About Me</h2>
+                        <h2 class="title">About Me</h2>
                         <p>
                             Zaki Abdel Nabi, <span class="text-dark">Laravel Developer</span>, based in Gaza. That’s where I come in—a builder of scalable web applications, a master of backend logic. I’m here to create solutions that not only reflect your vision but also deliver seamless experiences for your users. <br><br> With every line of code, I aim to craft applications that engage your audience and keep them coming back for more.
                         </p>
@@ -113,23 +109,146 @@
                         </ul>
                     </div>
                     <!-- Software Skills -->
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">2</div>
+                    <div class="tab-pane fade software-skills-tab" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                        <h2 class="title">Software Skills</h2>
+                        <ul>
+                            <li>
+                                <span>Backend Development:</span>
+                                <span>Laravel framework, PHP (OOP), MySQL (relational databases, SQL, ER diagrams, connection pooling)</span>
+                            </li>
+                            <li>
+                                <span>Frontend Development:</span>
+                                <span>HTML, CSS (Grid, Flexbox), JavaScript, jQuery, Bootstrap, Tailwind CSS</span>
+                            </li>
+                            <li>
+                                <span>Full Stack Development:</span>
+                                <span>Experience in integrating frontend and backend components for robust web applications</span>
+                            </li>
+                            <li>
+                                <span>Database Management:</span>
+                                <span>Proficient in database design, SQL queries, and optimization</span>
+                            </li>
+                            <li>
+                                <span>Project Management:</span>
+                                <span>Agile methodologies</span>
+                            </li>
+                            <li>
+                                <span>System Analysis:</span>
+                                <span>Strong analytical skills with experience in writing system requirements specifications (SRS) and system documentation</span>
+                            </li>
+                        </ul>
+                    </div>
                     <!-- Education -->
-                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">3</div>
+                    <div class="tab-pane fade education-tab" id="v-pills-education" role="tabpanel" aria-labelledby="v-pills-education-tab" tabindex="0">
+                        <h2 class="title">Education</h2>
+                        <div class="boxes">
+                            <div class="box">
+                                <div class="date">2021 - 2025</div>
+                                <div class="info">
+                                    <span>University</span>
+                                    <span class="name">
+                                        Al-Azhar University - Gaza<br>
+                                        Software Engineering Major
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="date">2019 - 2020</div>
+                                <div class="info">
+                                    <span>High School</span>
+                                    <span class="name">Deir al-Balah Industrial Secondary School</span>
+                                    <span class="gpa"><b>GPA:</b> <span class="number">95.1</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Skills -->
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">4</div>
-                    <!-- Portfolio -->
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">5</div>
-                    <!-- CV -->
-                    <div class="tab-pane fade" id="v-pills-cv" role="tabpanel" aria-labelledby="v-pills-cv-tab" tabindex="0">6</div>
+                    <div class="tab-pane fade skills-tab" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                        <h2 class="title">Skills</h2>
+                        <div class="boxes">
+                            <span><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span><i class="fa-brands fa-js"></i> JS</span>
+                            <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                            <span><i class="fa-brands fa-laravel"></i>Laravel</span>
+                            <span><i class="fa-brands fa-php"></i>php</span>
+                            <span><i class="fa-duotone fa-solid fa-database"></i> Mysql</span>
+                            <span><i class="fa-brands fa-docker"></i> Docker</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <i class="fad fa-star-shooting star"></i>
         </div>
     </div>
+    <!-- End About Me -->
+    <!-- Start Portfolio -->
+    <div class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p class="zaki">My recent work</p>
+            <div class="boxes">
+                <!-- Box -->
+                <div class="box wow slideInLeft">
+                    <div class="image">
+                        <img src="images/project1.png" alt="Project">
+                    </div>
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="app-name">Basinik Finance App</a>
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </div>
+                </div>
+                <!-- Box -->
+                <div class="box wow slideInRight">
+                    <div class="image">
+                        <img src="images/project1.png" alt="Project">
+                    </div>
+                    <div class="tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="app-name">Basinik Finance App</a>
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="view-all-projects">View All Project <i class="fa-regular fa-arrow-right"></i> </a>
+        </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start CV -->
+    <div class="cv">
+        <div class="container">
+            <div class="info">
+                <div class="text">
+                    <h2>CV</h2>
+                    <p>my CV, find out more about my career and skills</p>
+                </div>
+                <a href="ZakiAbedElNabiResume.pdf" class="download" download="filename.pdf">Download CV <i class="fa-regular fa-arrow-right"></i></a>
+            </div>
+            <iframe class="wow slideInRight" src="https://drive.google.com/file/d/1Kq44RX-GSHJS-ai2tzREWh5G90bSiO7g/preview" allow="autoplay" ></iframe>    
+        </div>
+    </div>
+    <!-- End CV -->
 
+    <!-- Start Footer -->
+    <footer>
+       <div class="container">
+            ©2024 Made With <i class="fas fa-heart"></i> by <b>Zaki Abed</b>, All Rights Reserved
+       </div>
+    </footer>
+    <!-- End Footer -->
     <!-- JS Files -->
     <!-- Bootstrap -->
     <script src="js/bootstrap.bundle.js"></script>
+    <!-- WoW.js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
