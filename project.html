@@ -71,117 +71,11 @@
     <!-- Start Portfolio -->
     <div class="portfolio">
       <div class="container">
-        <h2>Portfolio</h2>
-        <p class="zaki">My recent work</p>
-        <div class="boxes">
-          <!-- Box 1 -->
-            <div class="box wow slideInLeft">
-                <div class="image">
-                <img src="images/projects/boogalu.png" alt="Project" />
-                </div>
-                <div class="tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Bootstrap</span>
-                </div>
-                <div class="link">
-                <a href="https://zaki-abed.github.io/boogalu/" class="app-name"
-                    >boogalu Project</a
-                >
-                <i class="fa-regular fa-arrow-right"></i>
-                </div>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="box wow slideInRight">
-                <div class="image">
-                <img src="images/projects/Dashboard.png" alt="Project" />
-                </div>
-                <div class="tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Bootstrap</span>
-                </div>
-                <div class="link">
-                <a
-                    href="https://zaki-abed.github.io/HTML_And_CSS_Template_Four/"
-                    class="app-name"
-                    >Dashboard Project</a
-                >
-                <i class="fa-regular fa-arrow-right"></i>
-                </div>
-            </div>
-          <!-- Box 3 -->
-          <div class="box wow slideInRight">
-            <div class="image">
-              <img src="images/projects/login.png" alt="Project" />
-            </div>
-            <div class="tech">
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div class="link">
-              <a href="https://zaki-abed.github.io/login/" class="app-name">Login Page</a>
-              <i class="fa-regular fa-arrow-right"></i>
-            </div>
+          <h2>Portfolio</h2>
+          <p class="zaki">My recent work</p>
+          <div class="boxes" id="projects-container">
+            <!-- project -->
           </div>
-          <!-- Box 4 -->
-          <div class="box wow slideInRight">
-            <div class="image">
-              <img src="images/projects/Landing-page-3.png" alt="Project" />
-            </div>
-            <div class="tech">
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div class="link">
-              <a href="https://zaki-abed.github.io/HTML_And_CSS_Template_Three/" class="app-name">Landing Page 3</a>
-              <i class="fa-regular fa-arrow-right"></i>
-            </div>
-          </div>
-          <!-- Box 5 -->
-          <div class="box wow slideInRight">
-            <div class="image">
-              <img src="images/projects/landing-page-1.png" alt="Project" />
-            </div>
-            <div class="tech">
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div class="link">
-              <a href="https://zaki-abed.github.io/HTML_And_CSS_Template_One/" class="app-name">Landing Page 1</a>
-              <i class="fa-regular fa-arrow-right"></i>
-            </div>
-          </div>
-            <!-- Box 6 -->
-          <div class="box wow slideInRight">
-            <div class="image">
-              <img src="images/projects/login-mobile.png" alt="Project" />
-            </div>
-            <div class="tech">
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div class="link">
-              <a href="https://zaki-abed.github.io/medialist/" class="app-name">Medialist - Mobile Application</a>
-              <i class="fa-regular fa-arrow-right"></i>
-            </div>
-          </div>
-            <!-- Box 7 -->
-          <div class="box wow slideInRight">
-            <div class="image">
-              <img src="images/projects/landing-page-2.png" alt="Project" />
-            </div>
-            <div class="tech">
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div class="link">
-              <a href="https://zaki-abed.github.io/HTML_And_CSS_Template_Tow/" class="app-name">Landing Page 2</a>
-              <i class="fa-regular fa-arrow-right"></i>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <!-- End Portfolio -->
@@ -189,8 +83,7 @@
     <!-- Start Footer -->
     <footer>
       <div class="container">
-        ©2024 Made With <i class="fas fa-heart"></i> by <b>Zaki Abed</b>, All
-        Rights Reserved
+        Made With <i class="fas fa-heart"></i> by <b>Zaki Abed</b>, All Rights Reserved ©2025
       </div>
     </footer>
     <!-- End Footer -->
@@ -201,6 +94,97 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+
+      const projects = [
+      {
+        name: "Ikhwa Network",
+        imgSrc: "images/projects/ikhwanetwork.png",
+        tech: ["Laravel", "JS"],
+        link: "https://www.ikhwanetwork.com/ar"
+    },
+    {
+        name: "Karihome",
+        imgSrc: "images/projects/karihome.png",
+        tech: ["Laravel", "JS"],
+        link: "https://www.karihomeco.com"
+    },
+    {
+        name: "Artyads",
+        imgSrc: "images/projects/artyads.png",
+        tech: ["Laravel", "JS"],
+        link: "https://www.artyads.com"
+    },
+    {
+        name: "Ikhwa Digital",
+        imgSrc: "images/projects/ikhwadigital.png",
+        tech: ["Laravel", "JS"],
+        link: "https://www.ikhwadigital.com/ar"
+    },
+    {
+        name: "Boogalu",
+        imgSrc: "images/projects/boogalu.png",
+        tech: ["HTML", "CSS", "Bootstrap"],
+        link: "https://zaki-abed.github.io/boogalu/"
+    },
+    {
+        name: "Ikhwa Investments",
+        imgSrc: "images/projects/ikhwainvestments.png",
+        tech: ["Laravel", "JS"],
+        link: "https://www.ikhwainvestments.com/ar"
+    },
+    {
+        name: "Dashboard",
+        imgSrc: "images/projects/Dashboard.png",
+        tech: ["HTML", "CSS", "Bootstrap"],
+        link: "https://zaki-abed.github.io/HTML_And_CSS_Template_Four/"
+    },
+    {
+        name: "Login Page",
+        imgSrc: "images/projects/login.png",
+        tech: ["HTML", "CSS"],
+        link: "https://zaki-abed.github.io/login/"
+    },
+    // {
+    //     name: "Landing Page 3",
+    //     imgSrc: "images/projects/Landing-page-3.png",
+    //     tech: ["HTML", "CSS"],
+    //     link: "https://zaki-abed.github.io/HTML_And_CSS_Template_Three/"
+    // },
+    // {
+    //     name: "Landing Page 1",
+    //     imgSrc: "images/projects/landing-page-1.png",
+    //     tech: ["HTML", "CSS"],
+    //     link: "https://zaki-abed.github.io/HTML_And_CSS_Template_One/"
+    // },
+    // {
+    //     name: "Landing Page 2",
+    //     imgSrc: "images/projects/landing-page-2.png",
+    //     tech: ["HTML", "CSS"],
+    //     link: "https://zaki-abed.github.io/HTML_And_CSS_Template_Tow/"
+    // }
+];
+
+// استهداف الحاوية الخاصة بالمشاريع
+const container = document.getElementById("projects-container");
+
+// دالة لتوليد HTML للمشاريع
+projects.forEach(project => {
+    const projectBox = `
+        <div class="box wow ${project.tech.length > 2 ? 'slideInLeft' : 'slideInRight'}">
+            <div class="image">
+                <img src="${project.imgSrc}" alt="Project" />
+            </div>
+            <div class="tech">
+                ${project.tech.map(tech => `<span>${tech}</span>`).join('')}
+            </div>
+            <div class="link">
+                <a href="${project.link}" class="app-name" target="_blank" rel="noopener noreferrer">${project.name}</a>
+                <i class="fa-regular fa-arrow-right"></i>
+            </div>
+        </div>
+    `;
+    container.innerHTML += projectBox;
+});
     </script>
   </body>
 </html>
