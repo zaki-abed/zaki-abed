@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Zaki Abed!  
+# 👋 Hello, I'm Zaki!  
 #### A Full Stack Developer specializing in Laravel.  
 
 I have experience in building scalable and high-performance web applications using modern technologies.
