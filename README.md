@@ -8,7 +8,6 @@ I have experience in building scalable and high-performance web applications usi
 ## 🔭 About Me  
 - 💻 I’m currently working with **Laravel**.  
 - 📫 How to reach me: **zaki.abed2541@gmail.com**.  
-- 📄 Check out my [CV](https://drive.google.com/drive/folders/1BLzV9Z9aGC0nFNSxW9u3dJeTS-Dye2vr?usp=drive_link).  
 - 💬 Ask me anything, I'm happy to help!  
 
 ---
